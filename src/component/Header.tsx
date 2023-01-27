@@ -4,7 +4,7 @@ export interface IHeaderProps {}
 
 export default function Header(props: IHeaderProps) {
   return (
-    <header className="flex flex-col md:flex-row items-center py-4 bg-slate-800">
+    <header className="flex flex-col md:flex-row items-center py-4 bg-slate-700">
       <h1 className="font-bold text-white text-2xl border-r-[1px] px-4">
         Zidane
       </h1>
