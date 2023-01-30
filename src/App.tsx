@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
 import Hero from "./section/Hero";
 import Skills from "./section/Skill";
@@ -8,6 +7,7 @@ import axios from "axios";
 
 function App() {
   const [count, setCount] = useState(0);
+
   useEffect(() => {
     axios("https://catfact.ninja/fact")
       .then((res) => {
@@ -17,6 +17,7 @@ function App() {
         console.log(err);
       });
   }, []);
+
   return (
     <div className="bg-slate-800">
       <Hero />
