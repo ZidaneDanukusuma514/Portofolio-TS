@@ -4,8 +4,10 @@
   color: white;
 }
 
-.skill-box {
+.skill {
+  color: white;
+  text-align: center;
+  font-weight: bold;
   width: 80px;
   height: 80px;
-  overflow: hidden;
 }
